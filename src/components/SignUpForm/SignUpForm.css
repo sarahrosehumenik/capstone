@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(pink,blue);
+    background-repeat: no-repeat;
+    background-position: fill;
+    
+}
+:root {
+    height: 100vh;
+}
+
+html {
+    height: 100vh;
+}

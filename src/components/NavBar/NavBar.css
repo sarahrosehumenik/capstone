@@ -1,0 +1,39 @@
+div {
+    margin: auto;
+    
+    font-family: 'Inria Sans', sans-serif;
+   
+    color: rgb(255, 0, 60);
+
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 2vw;
+    color: rgb(255, 0, 60);
+}
+
+a:hover {
+     color: blue;
+}
+
+.drawingslink {
+    position: absolute;
+    margin: 50vw 0 0 -15vw;
+    z-index: 1;
+
+}
+
+.letsdrawlink {
+    position: absolute;
+    margin: 50vw 0 0 -3vw;
+    z-index:1;
+}
+
+.logout {
+    position: absolute;
+    margin: 50vw 0 0 10vw;
+    z-index:1;
+
+}
