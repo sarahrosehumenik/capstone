@@ -1,11 +1,7 @@
-:root {
 
-
-
-}
 
 *, *:before, *:after {
-  box-sizing: border-box;
+   box-sizing: border-box; 
 }
 
 body {
@@ -15,7 +11,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(185, 195, 211);
+  background-color: rgb(223, 156, 221);
   
   
  
@@ -110,14 +106,6 @@ h3 {
   margin: -1vw 0 0 0;
   background: linear-gradient(pink,rgb(0, 165, 127));
 }
-.drawings {
-  height: 120vh;
-  background: linear-gradient(rgb(255, 255, 255),rgb(217, 156, 255));
-  display: flex;
-  justify-content: center;
-  overflow-y: scroll;
-  flex-direction: column;
-}
 
 
 .hint {
@@ -126,18 +114,8 @@ h3 {
   font-size: 1.5vw;
 }
 
-.posts {
-  margin: 30vw auto;
- 
-  width: 40%;
-  font-size: 5vw;
-  text-align: center;
-  box-shadow: 1px 2px 12px 2px rgba(28, 31, 31, 0.548);
-  padding: 3vw;
-  background-color: rgba(255, 255, 255, 0.418);
 
 
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -302,7 +280,7 @@ button[type="submit"] {
   justify-content: space-evenly;
   border-radius: 5px;
   align-items: center;
-  background: linear-gradient(rgba(138, 187, 187, 0.934), rgba(243, 30, 250, 0.42));
+  background: linear-gradient(rgba(138, 175, 187, 0.934), rgba(243, 30, 250, 0.42));
   position: absolute;
   margin: -50vw 0 0 43vw;
 
@@ -344,3 +322,4 @@ input[type="range"] {
   margin:-45vw 0 0 -36vw;
   background-color:rgba(146, 184, 184, 0.336);
 }
+

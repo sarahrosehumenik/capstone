@@ -109,6 +109,7 @@ export default function Home () {
                getQuote();
              }
 
+            
    
 
     return (
@@ -157,6 +158,7 @@ export default function Home () {
     Clear
   </button>
 
+   
         <p className="hint">*Hint- The color white is an eraser</p>
       </div>
       

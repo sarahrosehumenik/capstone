@@ -9,10 +9,10 @@ export default function NavBar({user, setUser}) {
     }
     return (
         <div>
-            <Link className="drawingslink" to="/orders"> Drawings</Link>
+            {/* <Link className="drawingslink" to="/orders"> Drawings</Link>
           
             <Link  className="letsdrawlink" to="/">Lets Draw</Link>
-  
+   */}
            <Link className="logout" to="" onClick={handleLogOut}>Log Out</Link>
             </div>
     )
