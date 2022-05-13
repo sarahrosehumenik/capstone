@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(pink,blue);
+   
     background-repeat: no-repeat;
     background-position: fill;
     
@@ -11,3 +11,32 @@ body {
 html {
     height: 100vh;
 }
+h1{
+    font-family: 'Yaldevi', sans-serif;
+    color:rgb(255, 21, 0);
+}
+input {
+    border: 1px solid rgb(0, 51, 255);
+}
+
+.form-container {
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgba(246, 151, 255, 0.31);
+    box-shadow: inset   1px 2px 12px 2px rgba(28, 31, 31, 0.742);
+}
+
+button {
+    color: rgb(255, 9, 9);
+    background-color: rgba(244, 186, 176, 0.705);
+}
+
+label {
+    
+
+    color: rgb(0, 0, 0);
+}
+
+button:disabled, form:invalid button[type="submit"] {
+    cursor: not-allowed;
+    background-color: rgba(255, 149, 128, 0.758);
+  }

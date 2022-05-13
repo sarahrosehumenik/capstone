@@ -11,7 +11,7 @@ import axios from "axios";
 // }
 
 
-export default function NewOrderPage () {
+export default function Home () {
 
 
     const canvasRef = useRef(null);
@@ -104,6 +104,10 @@ export default function NewOrderPage () {
          useEffect(() => {
              getQuote();
              },[])
+  
+             const newQuote = () => {
+               getQuote();
+             }
 
    
 
@@ -120,7 +124,8 @@ export default function NewOrderPage () {
         <h2>Let this be your moment for procrastination to shine. Below is a quote that you can use as a guide to get creative. Maybe it reminded you of something, maybe it helped you decide you dont want to draw anything
             realted, maybe a word stood out, or maybe even the general vibe gave you direction. Let the quote offer you a gental suggestion of inspiration!
         </h2>
-        <p className="quote">"{quoteData}"</p>
+        <p className="quote">"{quoteData}"<br></br> <button className="newquote" onClick={newQuote}>New Quote</button></p>
+       
 
        
         
@@ -131,7 +136,7 @@ export default function NewOrderPage () {
           onMouseDown={startDrawing}
           onMouseUp={endDrawing}
           onMouseMove={draw}
-          ref={canvasRef}
+          ref={canvasRef} 
           width={`460vw`}
           height={`300vw`}
         />
@@ -154,11 +159,7 @@ export default function NewOrderPage () {
 
         <p className="hint">*Hint- The color white is an eraser</p>
       </div>
-        <div className="drawings">
-
-            <p className="posts">This is the place where the drawings post. im going to put more words </p>
-           
-        </div>
+      
         </>
         
     )

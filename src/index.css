@@ -15,7 +15,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(195, 142, 164);
+  background-color: rgb(185, 195, 211);
   
   
  
@@ -46,7 +46,7 @@ body {
 
 h4{
   position: absolute;
-  margin: 17vw 0 0 30vw;
+  margin: 13vw 0 0 30vw;
   font-family: 'Yaldevi', sans-serif;
   font-size: 4vw;
   color:rgb(255, 255, 255);
@@ -60,7 +60,7 @@ p{
 h2{
   position: absolute;
   font-family: 'Yaldevi', sans-serif;
-   top: 105vw;
+   top: 98vw;
    background:linear-gradient( rgba(255, 255, 255, 0.329), rgba(255, 139, 251, 0.598));
    font-size: 2vw;
    right: 15%;
@@ -77,11 +77,23 @@ img {
  
 }
 .quote {
-  margin: 58vw 0 0 25vw;
+  margin: 52vw 0 0 25vw;
   text-align: center;
   width: 50%;
  
   
+}
+.newquote {
+  position: relative;
+  z-index: 20;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 88, 255);
+  margin: 2vw 0 0 0;
+ 
+}
+
+.newquote:hover {
+  background-color: red;
 }
 
 h3 {
@@ -89,7 +101,7 @@ h3 {
   margin: 78vw 0 0 40vw;
   font-size: 4vw;
   font-family: 'Yaldevi', sans-serif;
-   color: rgb(220, 220, 31);
+   color: rgb(222, 211, 221);
 }
 
 .canvasimg {
@@ -109,7 +121,7 @@ h3 {
 
 
 .hint {
-  margin: -30vw 0 0 3vw;
+  margin: -70vw 0 0 3vw;
   width: 15%;
   font-size: 1.5vw;
 }
@@ -209,9 +221,9 @@ label {
 input {
   padding: 1vmin;
   font-size: 2vmin;
-  border: 1px solid rgb(225, 0, 0);
+  border: 1px solid #e10000;
   border-radius: .5vmin;
-  color: rgb(240, 167, 167);
+  color: rgb(2, 2, 2);
   background-image: none !important; /* prevent lastpass */
   outline: none;
 }
@@ -224,7 +236,7 @@ button, a.button {
   margin: 1vmin;
   padding: 1vmin;
   color: var(--white);
-  background-color: var(--orange);
+  background-color: pink;
   font-size: 2vmin;
   font-weight: bold;
   text-decoration: none;
@@ -245,10 +257,7 @@ button.btn-xs {
   padding: .4vmin .5vmin;
 }
 
-button:disabled, form:invalid button[type="submit"] {
-  cursor: not-allowed;
-  background-color: var(--tan-4);
-}
+
 
 button[type="submit"] {
   grid-column: span 2;
@@ -288,25 +297,28 @@ button[type="submit"] {
   
 .Menu {
   width: 45vw;
-  height: 50px;
+  height: 7vw;
   display: flex;
   justify-content: space-evenly;
   border-radius: 5px;
   align-items: center;
-  background-color: #ff8af7d2;
+  background: linear-gradient(rgba(138, 187, 187, 0.934), rgba(243, 30, 250, 0.42));
   position: absolute;
-  margin: -45vw 0 0 35vw;
+  margin: -50vw 0 0 43vw;
+
+
   
 }
 
 label {
   font-size: 1vw;
-  color: white;
+  color: rgb(0, 0, 0);
+  
 }
 
-input {
-  width: 5vw;
-  background-color:rgba(255, 255, 255, 0);
+.picker {
+  border: 1.5px solid rgb(221, 255, 0);
+  background-color:rgba(255, 255, 255, 0.584);
 
 }
 
@@ -315,14 +327,20 @@ canvas {
   top: -53vw;
   background-color: rgb(255, 255, 255);
   z-index: 20;
-  margin: 0 0 0 0;
+  margin: 0 0 0 1vw;
+  height: 31vw;
+  width: 51vw;
 }
 
-input[type='range'] {
-  color: white;
+input[type="range"] {  
+  accent-color: #f4b7a048;
+  width: 6vw;
+  
+  
 }
 
 .clear {
   position: absolute;
-  margin:-38vw 0 0 0;
+  margin:-45vw 0 0 -36vw;
+  background-color:rgba(146, 184, 184, 0.336);
 }
