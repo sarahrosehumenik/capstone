@@ -2,6 +2,8 @@
 
 *, *:before, *:after {
    box-sizing: border-box; 
+   user-select: none;
+-moz-user-select: none;
 }
 
 body {
@@ -122,9 +124,7 @@ code {
     monospace;
 }
 
-/* #root {
-  height: 100%;
-} */
+
 
 .align-ctr {
   text-align: center;
@@ -267,11 +267,7 @@ button[type="submit"] {
   }
 }
 
-.draw-area {
-  
- 
- 
-}
+
   
 .Menu {
   width: 45vw;
