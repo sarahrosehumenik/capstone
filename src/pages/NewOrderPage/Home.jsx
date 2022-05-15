@@ -161,7 +161,7 @@ export default function Home () {
    
         <p className="hint">*Hint- The color white is an eraser</p>
       </div>
-      
+      <p className="picasso">I Like it, Picasso✎</p>
         </>
         
     )
